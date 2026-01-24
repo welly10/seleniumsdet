@@ -1,0 +1,14 @@
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/Selenium/FirstTestCase.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/Selenium/LoginPage.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/Selenium/LoginPageFactory.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/Selenium/LoginTest.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/TestNGRunner.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/pageObjects/AccountRegistrationPage.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/pageObjects/BasePage.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/pageObjects/HomePage.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/pageObjects/LoginPage.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/pageObjects/MyAccountPage.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testBase/BaseClass.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testCases/TC001_AccountRegistrationTest.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testCases/TC002_LoginTest.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/utilities/ExtentReportManager.java

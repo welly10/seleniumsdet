@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="76.793" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/test-classes:/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/classes:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/admin/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/admin/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/admin/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/admin/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/admin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/admin/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/admin/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/admin/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/admin/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/admin/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/admin/.m2/repository/org/apache/poi/poi/5.5.1/poi-5.5.1.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/admin/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/Users/admin/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml/5.5.1/poi-ooxml-5.5.1.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml-lite/5.5.1/poi-ooxml-lite-5.5.1.jar:/Users/admin/.m2/repository/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/Users/admin/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar:/Users/admin/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/admin/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/admin/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/admin/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/admin/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/admin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/surefire/surefirebooter-20260124002945512_3.jar /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/surefire 2026-01-24T00-29-45_287-jvmRun1 surefire-20260124002945512_1tmp surefire_0-20260124002945512_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/test-classes:/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/classes:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/admin/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/admin/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/admin/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/admin/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/admin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/admin/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/admin/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/admin/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/admin/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/admin/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/admin/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/admin/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/admin/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/admin/.m2/repository/org/apache/poi/poi/5.5.1/poi-5.5.1.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/admin/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/Users/admin/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml/5.5.1/poi-ooxml-5.5.1.jar:/Users/admin/.m2/repository/org/apache/poi/poi-ooxml-lite/5.5.1/poi-ooxml-lite-5.5.1.jar:/Users/admin/.m2/repository/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/Users/admin/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar:/Users/admin/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar:/Users/admin/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/admin/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/admin/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/admin/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/admin/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/admin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/surefire/surefirebooter-20260124002945512_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/admin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5t/0zybbtys39jd7jhkc772rx_40000gn/T/"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="verify_login" classname="testCases.TC002_LoginTest" time="2.434">
+    <system-out><![CDATA[User Directory printing: /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet
+**** OS **** Linux
+**** Browser: ****firefox
+2026-01-23T18:59:51.123670Z main INFO Starting configuration XmlConfiguration[location=/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/test-classes/log4j2.xml, lastModified=2026-01-23T18:59:43.802Z]...
+2026-01-23T18:59:51.124163Z main INFO Start watching for changes to /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/test-classes/log4j2.xml every 0 seconds
+2026-01-23T18:59:51.124283Z main INFO Configuration XmlConfiguration[location=/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/target/test-classes/log4j2.xml, lastModified=2026-01-23T18:59:43.802Z] started.
+2026-01-23T18:59:51.124700Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@232a7d73...
+2026-01-23T18:59:51.124890Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@232a7d73 stopped.
+00:30:16.637 [main] INFO  testCases.TC002_LoginTest - *******  Starting TC002_LoginTest  ***********
+00:30:16.638 [main] INFO  testCases.TC002_LoginTest - **** After Try ******
+00:30:16.644 [main] INFO  testCases.TC002_LoginTest - **** My Accoubt click ******
+00:30:16.720 [main] INFO  testCases.TC002_LoginTest - **** Login link click ******
+00:30:17.016 [main] INFO  testCases.TC002_LoginTest - **** Cliked on Login linl******
+00:30:17.017 [main] INFO  testCases.TC002_LoginTest - **** Login page landed ******
+00:30:17.035 [main] INFO  testCases.TC002_LoginTest - **** LEmail inserted******
+00:30:19.062 [main] INFO  testCases.TC002_LoginTest - *******  Ending TC002_LoginTest  ***********
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verify_login" classname="testCases.TC002_LoginTest" time="1.914">
+    <system-out><![CDATA[**** FILE PATH for Screenshot/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/reports/Test-Report-2026.01.24.00.29.45.html
+User Directory printing: /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet
+**** OS **** Linux
+**** Browser: ****chrome
+00:30:42.997 [main] INFO  testCases.TC002_LoginTest - *******  Starting TC002_LoginTest  ***********
+00:30:42.997 [main] INFO  testCases.TC002_LoginTest - **** After Try ******
+00:30:42.997 [main] INFO  testCases.TC002_LoginTest - **** My Accoubt click ******
+00:30:43.103 [main] INFO  testCases.TC002_LoginTest - **** Login link click ******
+00:30:43.270 [main] INFO  testCases.TC002_LoginTest - **** Cliked on Login linl******
+00:30:43.270 [main] INFO  testCases.TC002_LoginTest - **** Login page landed ******
+00:30:44.127 [main] INFO  testCases.TC002_LoginTest - **** LEmail inserted******
+00:30:44.910 [main] INFO  testCases.TC002_LoginTest - *******  Ending TC002_LoginTest  ***********
+]]></system-out>
+    <system-err><![CDATA[Jan 24, 2026 12:30:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+]]></system-err>
+  </testcase>
+  <testcase name="verify_account_registration" classname="testCases.TC001_AccountRegistrationTest" time="11.633">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[User Directory printing: /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet
+**** OS **** Linux
+**** Browser: ****firefox
+00:30:21.848 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting AccountRegistrationTest ******
+
+00:30:21.927 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ****
+00:30:22.272 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on Register link ****
+00:30:23.413 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected message ****
+00:30:33.435 [main] ERROR testCases.TC001_AccountRegistrationTest - message failed
+00:30:33.436 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug log...
+]]></system-out>
+  </testcase>
+  <testcase name="verify_account_registration" classname="testCases.TC001_AccountRegistrationTest" time="10.889">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[User Directory printing: /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet
+**** OS **** Linux
+**** Browser: ****chrome
+00:30:46.406 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting AccountRegistrationTest ******
+
+00:30:46.502 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ****
+00:30:46.749 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on Register link ****
+00:30:46.994 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected message ****
+00:30:57.038 [main] ERROR testCases.TC001_AccountRegistrationTest - message failed
+00:30:57.039 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug log...
+]]></system-out>
+    <system-err><![CDATA[Jan 24, 2026 12:30:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+]]></system-err>
+  </testcase>
+</testsuite>
