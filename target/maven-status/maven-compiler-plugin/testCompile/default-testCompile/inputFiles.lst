@@ -11,4 +11,5 @@
 /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testBase/BaseClass.java
 /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testCases/TC001_AccountRegistrationTest.java
 /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testCases/TC002_LoginTest.java
+/Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/testCases/TC003_Search.java
 /Users/admin/Documents/SeleniumFrameworkSDET/seleniumsdet/src/test/java/utilities/ExtentReportManager.java
