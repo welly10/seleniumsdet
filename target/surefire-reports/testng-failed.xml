@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="Linux-Firefox(failed)" verbose="0">
     <parameter name="br" value="firefox"/>
-    <parameter name="os" value="Mac"/>
+    <parameter name="os" value="Linux"/>
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest">
         <methods>

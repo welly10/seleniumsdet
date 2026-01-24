@@ -959,3 +959,17 @@
 00:27:24.174 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected message ****
 00:27:34.191 [main] ERROR testCases.TC001_AccountRegistrationTest - message failed
 00:27:34.192 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug log...
+00:58:22.308 [main] INFO  testCases.TC002_LoginTest - *******  Starting TC002_LoginTest  ***********
+00:58:22.310 [main] INFO  testCases.TC002_LoginTest - **** After Try ******
+00:58:22.317 [main] INFO  testCases.TC002_LoginTest - **** My Accoubt click ******
+00:58:22.422 [main] INFO  testCases.TC002_LoginTest - **** Login link click ******
+00:58:22.631 [main] INFO  testCases.TC002_LoginTest - **** Cliked on Login linl******
+00:58:22.634 [main] INFO  testCases.TC002_LoginTest - **** Login page landed ******
+00:58:22.669 [main] INFO  testCases.TC002_LoginTest - **** LEmail inserted******
+00:58:23.483 [main] INFO  testCases.TC002_LoginTest - *******  Ending TC002_LoginTest  ***********
+00:58:26.053 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Starting AccountRegistrationTest ******
+00:58:26.164 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ****
+00:58:26.449 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on Register link ****
+00:58:27.081 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected message ****
+00:58:37.140 [main] ERROR testCases.TC001_AccountRegistrationTest - message failed
+00:58:37.141 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug log...
