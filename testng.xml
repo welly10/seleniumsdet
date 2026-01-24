@@ -8,22 +8,11 @@
 
 
      <test name="Linux-Firefox">
-       <parameter name="os" value="Linux"/>
+       <parameter name="os" value="Mac"/>
         <parameter name="br" value = "firefox"/>
         <classes>
             <class name="testCases.TC002_LoginTest"/> 
             <class name="testCases.TC001_AccountRegistrationTest"/>
         </classes>
     </test> 
-
-    
-
-    <test name="Linux-Chrome">
-       <parameter name="os" value="Linux"/>
-        <parameter name="br" value = "chrome"/>
-        <classes>
-            <class name="testCases.TC002_LoginTest"/> 
-            <class name="testCases.TC001_AccountRegistrationTest"/>
-        </classes>
-    </test>
 </suite> 

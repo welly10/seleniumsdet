@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="Linux-Firefox(failed)" verbose="0">
     <parameter name="br" value="firefox"/>
-    <parameter name="os" value="Linux"/>
+    <parameter name="os" value="Mac"/>
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest">
         <methods>
@@ -17,17 +17,4 @@
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Linux-Firefox(failed) -->
-  <test thread-count="5" name="Linux-Chrome(failed)" verbose="0">
-    <parameter name="br" value="chrome"/>
-    <parameter name="os" value="Linux"/>
-    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="verify_account_registration"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </classes>
-  </test> <!-- Linux-Chrome(failed) -->
 </suite> <!-- Failed suite [Smoke Suite] -->
